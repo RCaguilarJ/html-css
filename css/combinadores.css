@@ -1,0 +1,30 @@
+/*hermanos cercanos*/
+h2 + p {
+    color: red;
+}
+
+h2 ~ p {
+    color: blue;
+}
+
+h2 > p{
+    color: green;
+}
+
+div p {
+    color: blueviolet;
+}
+
+/* div + p {
+ }   hermano cercano*/
+
+
+ /* div ~ p {
+  } hermano general */
+
+  /* div > p {
+   } hijo */  
+
+   /* div p {
+    } descendiente   */
+    
