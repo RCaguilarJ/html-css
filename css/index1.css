@@ -11,7 +11,7 @@
 }
 .main-nav__item a { /* especificamos los estilos de los a de los items */
     color: white; /*le damos color*/
-    padding: 5px; /*  */
+    padding: 5px; /*área de relleno en los cuatro lados de un elemento a la vez   */
     border-radius: 2px;
     text-decoration: none;
 }

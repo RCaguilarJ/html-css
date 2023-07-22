@@ -4,4 +4,16 @@
 .clase
 :estado
 []atributo 
-*todos
+*todos0
+
+
+padding: suponiendo que tenemos en un cuadro x contenido. el padding, es el primer recuadro del borde de este
+border: es el "marco" que sigue por los 4 lados del padding 
+margin: el el último marco que le sigue al border y al pádding del contenido inicial 
+
+width: lo largo de la caja contenedora o el contenido 
+height: lo alto de ambos 
+
+A esto se le nombra "modelo de caja" 
+
+
