@@ -36,3 +36,5 @@ dentro de un ul van los li (list item) y ponemos texto
 --img: con esta etiqueta podemos enlazar imágenes en el documento.
 
 --figure: le da un contexto semántico a las imágenes.
+
+--select seleccionar algún articulo, idioma, etc 
