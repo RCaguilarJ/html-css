@@ -1,0 +1,7 @@
+<link rel="stylesheet" hrfef="./styles.css>   fucionar el css con html 
+
+# id 
+.clase
+:estado
+[]atributo 
+*todos

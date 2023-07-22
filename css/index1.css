@@ -1,0 +1,26 @@
+.main-nav {
+    margin-top: 10px;  
+    list-style: none;  /*quitamos los estilos de lo que nombramos lista  */
+    padding-left: 0px;  /*dimensión interna o sangría */
+    background-color: #13a4a4;
+
+}
+
+.main-nav__item {
+    display: inline-block; /*cambiamoos los items de vertical a orizontal */
+}
+.main-nav__item a { /* especificamos los estilos de los a de los items */
+    color: white; /*le damos color*/
+    padding: 5px; /*  */
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover { /*pseudoclase que hace que cambie el color al presionar el mouse */
+    color: blue;
+
+}
+
+.main-nav__item a:active { /*cuando seleccionas la opción cambia de color */
+color: red;
+}
