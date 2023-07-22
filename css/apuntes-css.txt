@@ -16,4 +16,16 @@ height: lo alto de ambos
 
 A esto se le nombra "modelo de caja" 
 
+inherit es para la herencia 
+
+cómo se controla el orden al declarar css?
+-- importancia
+--especificidad
+--orden de las fuentes 
+
+IMPORTANCIA 
+
+1.- Hoja de estilos de agente de usuario (estilos del navegador)
+2.- Declaciones normales en hojas de estilo de autor (nuestro css)
+3.- Declaraciones importantes en hojas de estilos de autor (utilizar el !important )
 
