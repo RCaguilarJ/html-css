@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+main {
+    width: 100vw;
+    height: 100vw;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    min-width: 230px; /*siempre el width base debe ir en % */
+    min-height: 500px; /* que no crezca el texto más de lo que debería */
+    background-color: red;
+    margin: 0 auto; /*de arriba a abajo no le agregues ningún margin. a los lados, que sea auto*/ 
+}

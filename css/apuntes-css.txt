@@ -14,6 +14,8 @@ margin: el el último marco que le sigue al border y al pádding del contenido i
 width: lo largo de la caja contenedora o el contenido 
 height: lo alto de ambos 
 
+padding: 20px 35px; /*20px arriba a abajo . 35px derecha e izquierda*/
+
 A esto se le nombra "modelo de caja" 
 
 inherit es para la herencia 
@@ -79,3 +81,8 @@ div + p {
 
    /* div p {
     } descendiente 
+
+
+***Medidas***
+absolutas: px
+relativas: %, em, rem(root em), max-width/max-heigt, min-with/min-height 

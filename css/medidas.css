@@ -1,0 +1,12 @@
+/*la diferencia entre pixeles y porcentajes son relativos a las necesidades. px es en general y % es al de la pantalla del usuario
+ */
+main {
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+
+ p {
+    font-size: 18px;
+}
+

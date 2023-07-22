@@ -8,5 +8,5 @@ main {
     width: 100%;
     height: 500px;
     border: 10px solid grey;
-    padding: 20px 35px; /*20px derecha e izquierda. 35px arriba y abajo */
+    padding: 20px 35px; /*20px arriba a abajo . 35px derecha e izquierda*/
 }

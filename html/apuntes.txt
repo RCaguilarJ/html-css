@@ -1,5 +1,7 @@
 Por buena práctica, debe coemzar con "index.html"
 
+~ se hace con alt gr + * 
+
 El usuario sólo va a ver lo que hay dentro del body
 
 header es el Encabezado
