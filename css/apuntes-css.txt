@@ -29,3 +29,10 @@ IMPORTANCIA
 2.- Declaciones normales en hojas de estilo de autor (nuestro css)
 3.- Declaraciones importantes en hojas de estilos de autor (utilizar el !important )
 
+
+
+
+.main-nav__item a:hover { /*pseudoclase que hace que cambie el color al presionar el mouse */
+}
+.main-nav__item a:active { /*cuando seleccionas la opción cambia de color */
+}
