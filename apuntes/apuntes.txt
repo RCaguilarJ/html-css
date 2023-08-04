@@ -1,0 +1,42 @@
+Por buena práctica, debe coemzar con "index.html"
+
+~ se hace con alt gr + * 
+
+El usuario sólo va a ver lo que hay dentro del body
+
+header es el Encabezado
+
+nav es la barra de navegación y va dentro del header 
+
+--main va afuera y abajo del header para el contenido principal
+
+-- el footer es es EL PIE de la página 
+
+--section  las secciones van dentro del main, y dentro de las secciones pueden ir artículos 
+
+para las listas, usamos 2 etiquetas 
+--ul lista desordenada (unorder list)
+dentro de un ul van los li (list item) y ponemos texto 
+
+--ol lista ordenada (order list 1ax)
+
+--div cualquier división para organizar el contenido.
+
+
+--h1 - h6: títulos de nuestro sitio web.
+
+--article: es la parte de nuestro contenido que puede vivir por sí mismo. Pueden haber tantos artícle como proyectos o eventos tenga nuestro portafolio.
+
+--p: define el texto de un párrafo.
+
+--small: aplica una apariencia de texto reducido en tamaño.
+
+--strong: aplica al texto un formato de negritas.
+
+--a: corresponde a un ancla o enlace a una url interna o externa del documento.
+
+--img: con esta etiqueta podemos enlazar imágenes en el documento.
+
+--figure: le da un contexto semántico a las imágenes.
+
+--select seleccionar algún articulo, idioma, etc 

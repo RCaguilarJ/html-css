@@ -1,0 +1,88 @@
+<link rel="stylesheet" hrfef="./styles.css>   fucionar el css con html 
+
+# id 
+.clase
+:estado
+[]atributo 
+*todos0
+
+
+padding: suponiendo que tenemos en un cuadro x contenido. el padding, es el primer recuadro del borde de este
+border: es el "marco" que sigue por los 4 lados del padding 
+margin: el el último marco que le sigue al border y al pádding del contenido inicial 
+
+width: lo largo de la caja contenedora o el contenido 
+height: lo alto de ambos 
+
+padding: 20px 35px; /*20px arriba a abajo . 35px derecha e izquierda*/
+
+A esto se le nombra "modelo de caja" 
+
+inherit es para la herencia 
+
+.main-nav__item a:hover { /*pseudoclase que hace que cambie el color al presionar el mouse */
+}
+.main-nav__item a:active { /*pseudoelemento quue cuando seleccionas la opción cambia de color */
+}
+
+cómo se controla el orden al declarar css?
+-- importancia
+--especificidad
+--orden de las fuentes 
+
+
+
+IMPORTANCIA 
+
+1.- Hoja de estilos de agente de usuario (estilos del navegador)
+2.- Declaciones normales en hojas de estilo de autor (nuestro css)
+3.- Declaraciones importantes en hojas de estilos de autor (utilizar el !important )
+
+
+
+Malas Prácticas dichas en Clase Hasta Ahora
+
+    Utilizar tanto id en CSS
+    Utilizar el !important
+    Utilizar la etiqueta <style> dentro del archivo html
+    Utilizar el atributo style dentro de las etiquetas html
+    Utilizar div para contener todo ignorando los header, nav, section, article, etc.
+    No utilizar la etiqueta <form> para hacer formularios
+    Utilizar las etiquetas <select> y <option> para hacer selectores o menús desplegables.
+    No nombrar el primer archivo html del proyecto como index.html
+    No tener archivos .css para cada pantalla de un proyecto.
+    Tener todo el css junto en un solo archivo.
+    No ponerle el atributo alt a una imagen
+    Poner imágenes dentro de <div> en vez de <figure>
+    Utilizar textos solo en mayúscula en HTML, en vez de utilizar el atributo de CSS, text-transform, con el valor uppercase. Ya que al hacer esto pareciera que estuvieras gritando.
+    Poner videos que se reproduzcan solos.
+    No optimizar las imágenes.
+    No tener cuidado de cual es el formato ideal para las imágenes y su respectivo peso.
+    No tener cuidado con la respectiva semántica de HTML, y con la sintaxis adecuada para CSS.
+    No cerrar las etiquetas que se cierran en sí mismas como <br/>
+    No comentar partes esenciales de tu código.
+    No poner la etiqueta <meta name=”robots” content=”index,follow”> en tu proyecto para que los navegadores los puedan ubicar mejor.
+    No usar la etiqueta <meta name=”viewpor” content=”width=device-width, initial-scale=1.0”> para hacer tu proyecto responsive.
+    No poner el atributo autocomplete=”valor” en los campos de tu formulario para hacerle la vida más fácil al usuario
+    No usar el atributo required en los campos obligatorios de tu formulario como una pri
+
+    mera capa de seguridad
+
+
+div + p {
+ }   hermano cercano*/
+
+
+ /* div ~ p {
+  } hermano general */
+
+  /* div > p {
+   } hijo */  
+
+   /* div p {
+    } descendiente 
+
+
+***Medidas***
+absolutas: px
+relativas: %, em, rem(root em), max-width/max-heigt, min-with/min-height 
