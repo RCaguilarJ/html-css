@@ -12,8 +12,8 @@ body {
     font-size: 1.6rem;
 }
 .container {
-    display: flex;
     border: 0.3rem solid black;
+    display: flex;
     flex-wrap: wrap;
     
 }
@@ -24,16 +24,21 @@ body {
 }
 .box1 {
     background-color: aqua;
+    flex-grow: 1;
 }
 .box2 {
     background-color:yellow;
+    flex-grow: 1;
 }
 .box3 {
     background-color: red;
+    flex-grow: 1;
 }
 .box4 {
     background-color:blue;
+    flex-grow: 1;
 }
 .box5 {
     background-color:green;
+    flex-grow: 1;
 }

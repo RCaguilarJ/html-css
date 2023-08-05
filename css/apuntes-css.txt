@@ -86,3 +86,82 @@ div + p {
 ***Medidas***
 absolutas: px
 relativas: %, em, rem(root em), max-width/max-heigt, min-with/min-height 
+
+***flexbox*** (responsive)
+display flex 
+aling-items (alinear contenedores)
+aling-items: flex-end (manda el contenido hasta abajo del contenedor pad)
+aling-items: flex-start (manda el contenido al principio del contenedor pad)
+aling-items: stretch (definen la altura)
+aling-items: baseline (tomar el espacio del contenido a la altura del texto )
+
+
+
+**contenedir responsive (checar ejercisio flexbox)
+display: flex;
+flex-wrap: wrap;
+flex-grow: 1; (que crezca una posición) (hará la caja responsive hasta convertirse en columna)
+
+*en .box
+heitgt: 10rem; //esto quiere decir 100 pixeles 
+flex-basis: 10rem;
+flex-grow: 1;
+
+
+***VARIABLES***
+para generar variables, hasta arriba y al principio del css de pone 
+
+:root {
+    --nombre de variable
+}
+
+ej 
+:root {
+    --primary-color: red; //va a poner el rojo cuando pongas 'var primary-color' en el css que lo invoques 
+    --primary-color: black; //pasa lo mismo 
+
+}
+
+
+***RESPONSIVE DESING ***
+
+
+-media querys 
+generan cambios en el que se pueden reposicionar o redimensionar los componentes depende al dispositivo que se utilice 
+
+//a partir de los pixeles en min-width se empiezan a hacer los cambios. Siempre hay que empezar por el formato de mobile y de ahí escalarlo a tablet y desktop 
+                                                        
+@media (min-width: 480px){ //código base en mobile 
+    ...
+}
+
+@media (min-width: 768px){ //código base en tablet o computadoras con monitor chico
+    ...
+}
+
+@media (min-width: 1024px){ //código base en desktop o monitores grandes  
+    ...
+}
+
+hay que ligar cada media query  en el head con un archivo css distinto dependiendo para qué dispositivos los hacemos 
+
+ej 
+
+    <link rel="stylesheet" href="./variablesCSS.css">
+
+    <link href="tablet.css" rel="stylesheet" media="screen and (min-width:768px)" >
+
+RECUERDA 
+mobile first 
+
+
+***PATRONES DE MAQUETACIÓN RFESPONSIVE DESIGN***
+los cambios deben de ir hasta abajo 
+
+lo que va dentro de la media, es el programa que se va a ejecutar después de pasar el pixelage que especificamos en el media query 
+
+
+***Colum Drop***
+con esto hacemos que si en mobile está en columnas, le vaya dando forma como que la primer columna se vuelva un recuadro a la izquiera superior y así 
+
+

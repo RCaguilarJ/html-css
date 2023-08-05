@@ -1,0 +1,36 @@
+:root {
+    --primary-color: aqua;
+    --seundary-color: aquamarine;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary-color);
+}
+main {
+    width: 100vw;
+    height: 70vw;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 4rem;
+
+}
+footer{
+    width: 100vw;
+    height: 15vw;
+    background-color: var(--seundary-color);
+}
